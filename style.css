@@ -1,0 +1,74 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .app-header-contents {
+    text-align: center;
+  }
+  .start-button {
+    border-radius: 8px;
+    border : 2px solid rgb(111, 111, 236);
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    box-shadow :-2px -2px 2px #999 inset;
+    width: 150px;
+  }
+  
+  .start-button:hover {
+    background-color:rgb(111, 111, 236);
+    color: white;
+  }
+  
+  .start-button:active{
+    box-shadow: 2px 2px 2px #999 inset;
+    color: transparent;
+    text-shadow: 2px 2px 0px #666;
+  }
+  
+  .result {
+    margin-top: 50px;
+    display: none;
+  }
+  div.row {
+    display: flex;
+    justify-content: center;
+  }
+  div.row .radius {
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+  }
+  
+  div.row .title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 3px;
+  }
+  
+  div.row .stars {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  div.row .detail {
+    margin-left: 18px;
+    margin-right: 18px;
+    text-align: center;
+  }
+  
+  div.row .radius.money {
+    border :2px solid yellow;
+    border-radius: 50%;
+  }
+  
+  div.row .radius.work {
+    border :2px solid green;
+    border-radius: 50%;
+  }
+  
+  div.row .radius.health {
+    border :2px solid aqua;
+    border-radius: 50%;
+  }
